@@ -5,9 +5,7 @@ var URLS = [
   // Add URL you want to cache in this list.
   "/pokedexApp/",
   "/pokedexApp/index.html",
-  "/pokedexApp/css",
   "/pokedexApp/css/materialize.min.css",
-  "/pokedexApp/js",
   "/pokedexApp/js/materialize.min.js" // add path to those files here
 ];
 
