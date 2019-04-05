@@ -38,7 +38,7 @@
 
     <script src="js/materialize.min.js"></script>
     <script src="api.js"></script>
-    <script>
+    <!-- <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function() {
           navigator.serviceWorker
@@ -52,6 +52,18 @@
         });
       } else {
         console.log("ServiceWorker not supported in this browser");
+      }
+
+      document.addEventListener("DOMContentLoaded", function() {
+        getAllPokemon();
+      });
+    </script> -->
+    <script>
+      // register ServiceWorker, remember to use absolute path!
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register("pokedexApp/sw.js", {
+          scope: "/pokedexApp/"
+        });
       }
 
       document.addEventListener("DOMContentLoaded", function() {
