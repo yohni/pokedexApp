@@ -4,6 +4,7 @@ var CACHE_NAME = APP_PREFIX + VERSION;
 var URLS = [
   // Add URL you want to cache in this list.
   "/pokedexApp/",
+  "/pokedexApp/manifest.json",
   "/pokedexApp/index.html",
   "/pokedexApp/css/materialize.min.css",
   "/pokedexApp/js/materialize.min.js" // add path to those files here
