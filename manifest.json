@@ -2,7 +2,7 @@
   "name": "Pokedex App",
   "short_name": "PokedexApp",
   "description": "Build Pokemon App",
-  "start_url": "/index.html",
+  "start_url": "/pokedexApp/index.html",
   "display": "standalone",
   "background_color": "#CC2936",
   "theme_color": "#CC2936",
