@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Pokedex App</title>
 
-    <link rel="canonical" href="https://yohni.github.io/pokedexApp/" />
-
     <!-- make app enable to added as apps -->
 
     <link rel="manifest" href="./manifest.json" />
@@ -63,14 +61,11 @@
     <script>
       // register ServiceWorker, remember to use absolute path!
       if (navigator.serviceWorker) {
-        navigator.serviceWorker.register("/pokedexApp/sw.js", {
-          scope: "/pokedexApp/"
-        });
+        navigator.serviceWorker.register('/{repository}/sw.js', {scope: '/{repository}/'})
       }
 
       document.addEventListener("DOMContentLoaded", function() {
         getAllPokemon();
-      });
     </script>
   </body>
 </html>
