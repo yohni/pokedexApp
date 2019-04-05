@@ -1,0 +1,21 @@
+{
+  "name": "Pokedex App",
+  "short_name": "PokedexApp",
+  "description": "Build Pokemon App",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#CC2936",
+  "theme_color": "#CC2936",
+  "icons": [
+    {
+      "src": "icon.png",
+      "size": "512x512",
+      "types": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
